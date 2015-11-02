@@ -1,0 +1,18 @@
+* python3 基本语法学习
+** python3 Number
+*** Python3 / 的区别 ::Python3 默认的除法为浮点数，比如 5/2 = 2.5。如果要使用整形，可使用5//2==2.
+** python3 String
+*** Python3 可以使用'', "", ''' ''' 来代表字符串，
+    ''' '''用于多行注释。如果内容中包括\n,可以通过r来取消\n的换行
+    比如 r'c:\home\name',打印出来是没有换行的。
+*** Python3 可以使用+来连接字符串，使用*来重复字符串
+*** Python3 两个字符串放在一块会自动连接在一起, 比如 'hello ' 'world' ==> 'hello world'. Note:变量和字符串不能连接在一起
+*** Python3 的String可以通过下标来索引。负数表示从右开始所应，起始为-1.
+*** Python3 支持slice功能。s[:n] + s[n:] == s .而且slice中的索引可以越界，越界后的元素为空
+*** Python3 中String是不可以修改的，比如 s[ 2 ] = 3 会报错
+** pyhton3 List 
+*** List和string一样可以通过index访问，并且支持切片功能
+*** List不同于string，是可变的。甚至可以通过切片功能复制
+
+   
+   
